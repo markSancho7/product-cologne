@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #F2EAE2;
+}
+img{
+    max-width: 100%;
+}
+.flex{
+    display: flex;
+    margin-inline: auto;
+    position: relative;
+    margin-top: 100px;
+}
+.container{
+    width: 550px;
+    height: 395px;
+    background-color: white;
+    border-radius: 10px;
+}
+.containerAticle{
+    padding: 20px;
+}
+.nameArticle{
+    font-family: "Montserrat", sans-serif;
+    color: #6C7289;
+}
+.principalText{
+    font-family: "Abril Fatface", serif;
+    font-weight:lighter;
+}
+.description{
+    font-family: "Montserrat", sans-serif;
+    color: #6C7289;
+}
+.principalPrice{
+    font-family: "Abril Fatface", serif;
+    font-weight:lighter;
+    color: #3D8168;
+    font-size: 30px;
+}
+.secondPrice{
+    font-family: "Montserrat", sans-serif;
+    color: #6C7289;
+    margin-left: 50px;
+    text-decoration: line-through;
+}
+.containerPicture{
+    width: 985px;
+    border-radius: 10px 0 0 10px;
+    overflow: hidden;
+}
+.iconCart{
+    position: absolute;
+    top: 345px;
+    left: 345px;
+}
+.cart{
+    display: inline-block;
+    background-color: #3D8168;
+    border: none;
+    padding: 10px 85px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+.cart:hover{
+    background-color: #285947;
+}
+
+.price::before{
+    content: attr(data-currency);
+}
