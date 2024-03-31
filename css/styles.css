@@ -72,3 +72,25 @@ img{
 .price::before{
     content: attr(data-currency);
 }
+
+@media (max-width: 770px) {
+   .flex{
+    display: block;
+    margin-top: 20px;
+   }
+   .container{
+    width: 340px;
+    height: 620px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.cart{
+    padding: 10px 110px;
+}
+.iconCart{
+    position: absolute;
+    top: 565px;
+    left: 105px;
+}
+  }
